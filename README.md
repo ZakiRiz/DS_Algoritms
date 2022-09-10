@@ -25,3 +25,17 @@ Sorting Algorithms
 1.	Bubble Sort: Largest element bubbles to end.
 •	In place algorithm: We don’t have create memory as per the size of input.
 •	Time complexity bad: O (N^2)
+
+Note: Stable sort vs Unstable sort : If while sorting we have duplicate elements and we change the relative position of the duplicate element, it will become unstable. Bubble sort is a stable sort algorithm.
+
+2.	Selection Sort: Largest element in each iteration will swap with the last element of unsorted array.
+•	In place algorithm: We don’t have create memory as per the size of input.
+•	Time complexity bad: O (N^2)
+•	Slightly better than bubble sort as less swapping required.
+•	Unstable sort algorithm.
+
+3.	Insertion Sort: We consider from left as the sorted array and we keep inserting elements into the sorted array from the unsorted array as per the applicable positon.
+•	In place algorithm: We don’t have create memory as per the size of input.
+•	Time complexity bad: O (N^2)
+•	Stable sort algorithm.
+
