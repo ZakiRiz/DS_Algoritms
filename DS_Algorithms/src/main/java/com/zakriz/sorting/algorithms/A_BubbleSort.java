@@ -1,6 +1,6 @@
 package com.zakriz.sorting.algorithms;
 
-public class BubbleSort {
+public class A_BubbleSort {
 
     public static void main(String[] args) {
 
